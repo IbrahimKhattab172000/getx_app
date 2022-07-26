@@ -13,14 +13,14 @@ class WelcomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
-      child: Scaffold(
+      child: Scaffold( 
           body: Stack(
         children: [
           SizedBox(
             height: double.infinity,
             width: double.infinity,
             child: Image.asset(
-              "assets/images/background.png",
+              "assets/images/shop.jpg",
               fit: BoxFit.cover,
             ),
           ),
